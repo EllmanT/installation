@@ -1,0 +1,10 @@
+------------------------------------------------------------------
+* API Verion 3.3.4 (No change)
+* Fixed Issue: Revmax Driver not responding and
+               not generating XML when it fails to pick items
+* Improvements to Credit Notes accuracy on original invoice number
+* Improvements on picking currency enclosed in brackets
+==================================================================
+
+
+

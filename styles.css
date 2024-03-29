@@ -132,10 +132,11 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 98vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  margin-bottom: 5rem;
 }
 
 .section-container {
@@ -172,6 +173,7 @@ section {
   font-weight: 600;
 }
 .section_text_p1 {
+  
   text-align: center;
 }
 .section_text_p2 {
@@ -262,6 +264,37 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
+
+#test {
+  position: relative;
+}
+#samples {
+  position: relative;
+}
+#timeline{
+  position:relative;
+}
+/*about 1*/
+#about1 {
+  position: relative;
+}
+.about1-containers {
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+.about1-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+.about1-containers,
+.about1-details-container {
+  display: flex;
+}
+.about1-pic {
+  border-radius: 2rem;
+}
 .arrow {
   position: absolute;
   right: -5rem;
@@ -303,7 +336,7 @@ section {
   color: gray;
   font-weight: 400;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .experience-p {
   color: rgb(85, 85, 85);
